@@ -2,3 +2,7 @@
   <%= text_field_tag :product %>
   <%= submit_tag "Add to Cart" %>
 <% end %>
+
+<% cart.each do |c| %>
+<%= c %>
+<% end %>
